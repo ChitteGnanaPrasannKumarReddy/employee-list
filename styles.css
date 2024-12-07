@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 0px 22px;
+    font-family: Arial, sans-serif;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+.input_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name_box,
+.profession_box,
+.age_box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 7px;
+}
+
+input {
+    width: 250px;
+    padding: 8px 12px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn {
+    margin-left: 12px;
+    width: 100px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.msg {
+    margin: 12px 0;
+    font-size: 1.2rem;
+}
+
+.msg_error {
+    color: red;
+}
+
+.msg_success {
+    color: green;
+}
+
+.added_emp {
+    margin: 12px 0;
+    font-size: 1.2rem;
+}
+
+.list_container {
+    width: 500px;
+}
+
+.list_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 22px;
+    padding: 8px;
+}
+
+.paraContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.list_box p {
+    padding: 0 12px;
+}
+
+.list_box button {
+    width: 100px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.data_not_found {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
